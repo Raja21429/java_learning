@@ -22,7 +22,7 @@ public class Pratice {
 	
 		System.out.println(arr[i]);*/
 		
-		int[] a= {2,5,1,7,3,8,4,9,5};
+	/*	int[] a= {2,5,1,7,3,8,4,9,5};
 		int val=8;
 		int i=0;
 		recursive(a,val,i,i+1);
@@ -35,9 +35,33 @@ public class Pratice {
 			return;
 		}
 		else {
-			System.out.println(a[i]);
-			recursive(a,i+1);
+			if(a[i]<a[j])
+			{
+				if(a[i]==val)
+				{
+					System.out.println("lower bound: "+i);
+					System.out.println("upper bound: "+(i+1));
+					return;
+				}
+				else {
+					System.out.println("Not Value");
+				}
+			}
+		}*/
+		String[] str1= {"example","racecar","excap","malayalam","racecar"};
+		StringBuffer sb=new StringBuffer(str1);
+		for (int i=0;i<str1.length;i++) {
+			System.out.println(str1[i]);
+			//sb.reverse();
+			
+			
 		}
+		
+		//System.out.println(str1[]);	
+		
+		
+			
+		
 		
 	}
 
