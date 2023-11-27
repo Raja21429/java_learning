@@ -16,11 +16,11 @@ public class NodeMain {
 		root.right.left.left=new Node<Integer>(60);
 		root.right.left.right=new Node<Integer>(70);
 		TreeTraversal traversal=new TreeTraversal(root);
-		traversal.inOrder();
+		traversal.inOrder(root);
 		System.out.println("---------------");
 		traversal.preOrder(root);
 		System.out.println("---------------");
-		traversal.postOrder();
+		traversal.postOrder(root);
 		}
 
 	}

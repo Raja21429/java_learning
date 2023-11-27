@@ -1,7 +1,7 @@
 package oops_concept;
 
 public class OopsExample {
-	class Bicycle {
+	/*class Bicycle {
 	    // the Bicycle class has two fields
 	    public int gear;
 	    public int speed;
@@ -60,18 +60,23 @@ public class OopsExample {
 	        return (super.toString() + "\nseat height is "
 	                + seatHeight);
 	    }
-	}
+	}*/
 	 
 	// driver class
-	public class Test {
-	    public static void main(String args[])
+	//public class Test {
+	 /*   public static void main(String args[])
 	    {
+	    	class2 n=new class2();
+	    	n.add();
+	    	n.walk();
+	    	n.play();
+	    	n.run();
 	 
-	        MountainBike mb = new MountainBike(3, 100, 25);
+	       /* MountainBike mb = new MountainBike(3, 100, 25);
 	        System.out.println(mb.toString());
 	    }
 	}z
-		/*Class1 cls = new Class1(); 
+		Class1 cls = new Class1(); 
 		Class2 cls1 = new Class2();
 		System.out.println();*/
 		
@@ -85,10 +90,17 @@ public class OopsExample {
 		
 		
 		
-		
+		public static void main(String[] args) {
+			Class1 c1=new Class1();
+			class2 c2=new class2();
+			System.out.println(c1.add(2, 3));	
+			System.out.println(c1.sub(2, 1));	
+			System.out.println(c2.multi(2,3));
+			System.out.println(c2.div(10, 2));
+		}
 	
 
-	}
+	
 
 }
 

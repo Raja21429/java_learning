@@ -6,11 +6,10 @@ public class TreeTraversal {
 	public TreeTraversal(Node<Integer>root) {
 		this.root=root;
 	}
-	public void inOrder() {
-		inOrder(root);
-	}
+//	public void inOrder() {
+//		inOrder(root);
+//	}
 	public void inOrder(Node<Integer>currentRoot) {
-
 		if(currentRoot !=null) {
 			inOrder(currentRoot.left);
 			System.out.println(currentRoot.data);
@@ -27,9 +26,9 @@ public class TreeTraversal {
 			preOrder(currentRoot.right);
 		}
 	}
-	public void postOrder()  {
-		postOrder(root);
-}
+//	public void postOrder()  {
+	//	postOrder(root);
+//}
 	public void postOrder(Node<Integer>currentRoot) {
 		if(currentRoot !=null) {
 			postOrder(currentRoot.left);

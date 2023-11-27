@@ -55,7 +55,7 @@ public class odd_Even {
 
 //method-2   getting input even number kum and getting input 
 		                                   //odd number kum
-		System.out.println("Enter the value");
+	/*	System.out.println("Enter the value");
 		int n=s.nextInt();
 		for(int i=1;i<=n;i++)
 		{
@@ -97,6 +97,26 @@ public class odd_Even {
 		7
 		9
 		Odd*/
+		
+		
+		 public static int maxofnos( int a, int b, int c) {
+		   if(a>b && a>c ){
+		      return a;
+		   }
+		   else if(b>a && b>c){
+		       return b;
+		   }
+		   
+		 }
+
+		public static void main1(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		int c = scanner.nextInt();
+		System.out.println(maxofnos(a,b,c));
+		
+	
 
 	}
 	
