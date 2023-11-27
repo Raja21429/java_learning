@@ -34,13 +34,13 @@ static boolean answer=false;
 		
 		
 		//using foreach
-	/*	String search=".";
+		String search=".";
 		hashMap.forEach((key,val)->{
 			if(key.contains(search) || val.contains(search)) {
 			answer=true;
 		}
 			});
-		System.out.println(answer);*/
+		System.out.println(answer);
 	}
 }
 		
