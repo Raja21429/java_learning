@@ -93,7 +93,8 @@ public class OopsExample {
 		public static void main(String[] args) {
 			Class1 c1=new Class1();
 			class2 c2=new class2();
-			System.out.println(c1.add(2, 3));	
+			//System.out.println(c1.add(2, 3));
+			System.out.println(c1.add());
 			System.out.println(c1.sub(2, 1));	
 			System.out.println(c2.multi(2,3));
 			System.out.println(c2.div(10, 2));

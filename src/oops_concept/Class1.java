@@ -30,7 +30,14 @@ public class Class1 {
 	}
 	public void walk() {
 		System.out.println("I'm Walk");*/
-	public int add(int a,int b) {
+	
+	
+	//public int add(int a,int b)
+	//int	c=a+b;
+	//return c;
+	public int add() {
+		int a=2;
+		int b=2;
 	int	c=a+b;
 		return c;
 		
@@ -46,6 +53,6 @@ public class Class1 {
 
 	
 		
-	}
+	
 
 
